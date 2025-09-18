@@ -13,15 +13,3 @@ Route::get('/nombre', function () {
 Route::get('/nacimiento', function () {
     return view('biografia.nacimiento');
 });
-
-Route::get('/niñez', function () {
-    return view('biografia.niñez');
-});
-
-Route::get('/adolescencia', function () {
-    return view('biografia.adolescencia');
-});
-
-Route::get('/actualidad', function () {
-    return view('biografia.actualidad');
-});
